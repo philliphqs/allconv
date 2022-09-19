@@ -36,12 +36,7 @@ def info():
 
 def convert(status: None):
     def process():
-        data = cv2.VideoCapture(get_value(Tag.FileInput))
-        frames = data.get(cv2.CAP_PROP_FRAME_COUNT)
-        fps = data.get(cv2.CAP_PROP_FPS)
 
-        seconds = round(frames / fps)
-        video_time = datetime.timedelta(seconds=seconds)
 
         # set_value(value=get_value(Tag.LogOutput)+"\nConverting file...", item=Tag.LogOutput)
         add_text("Converting file...", parent=Tag.LogChild)

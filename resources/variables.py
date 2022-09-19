@@ -1,6 +1,10 @@
+import os
+
+from dearpygui.dearpygui import *
+
 class Product:
     Name = "allconv"
-    Version = "0.0.1"
+    Version = "0.0.1-alpha"
     Author = "philliphqs"
 
 
@@ -31,7 +35,9 @@ class File:
         Icon = Path.Icons + "product_icons/icon.ico"
 
     class Images:
-        Icon = Path.Icons + "product_icons/icon.png"
+        Icon = [rf"C:\Program Files (x86)\allconv\icon.png",  # Path
+                "icon.png",     # Name
+                "https://raw.githubusercontent.com/philliphqs/allconv/main/resources/icons/product_icons/icon.png"]  # URL
 
 
 class Tag:

@@ -1,0 +1,169 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "F:/Dokumente/GitHub/allconv/main.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": true
+  },
+  {
+   "optionDest": "console",
+   "value": false
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "F:/Dokumente/GitHub/allconv/resources/icons/product_icons/icon.ico"
+  },
+  {
+   "optionDest": "name",
+   "value": "allconv"
+  },
+  {
+   "optionDest": "ascii",
+   "value": false
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "embed_manifest",
+   "value": true
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "win_private_assemblies",
+   "value": false
+  },
+  {
+   "optionDest": "win_no_prefer_redirects",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "argv_emulation",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/ui;ui/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources;resources/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/ads;ads/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/fonts;fonts/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/icons;icons/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/icons/product_icons;product_icons/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/screenshots;screenshots/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/backend;backend/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/backend/Converter.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/backend/FileDialog.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/backend/Interaction.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/backend/Notification.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/variables.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/screenshots/screenshot.png;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/icons/product_icons/icon.ico;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/icons/product_icons/icon.png;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/fonts/arial.ttf;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/ads/logo_text.jpg;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/resources/ads/logo_text.png;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/ui/NavBar.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/ui/Window.py;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Dokumente/GitHub/allconv/backend/Converter.py;."
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}

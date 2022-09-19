@@ -1,60 +1,25 @@
 import ctypes
-
 from dearpygui.dearpygui import *
 
 from resources.variables import *
 
-from backend import Interaction
-from backend import Converter
+from backend import Interaction, Download
+
 
 def stop_app():
-    # for item in [Tag.DirectoryOutputBrowseButton,
-    #              Tag.FileInputBrowseButton,
-    #              Tag.ConvertButton,
-    #              Tag.ConvertProgressBar,
-    #              Tag.ConvertGroup,
-    #              Tag.LogChild,
-    #              Tag.LogOutput,
-    #              Tag.FileName,
-    #              Tag.FileOutput,
-    #              Tag.FileInput,
-    #              Tag.FormatCombo,
-    #              Tag.TitleInput,
-    #              Tag.PathInput]:
-    #     try:
-    #         hide_item(item)
-    #     except:
-    #         pass
     resp = ctypes.windll.user32.MessageBoxW(0,
                                             u"Are you sure you want to exit?",
                                             Product.Name, 4)
-
     if resp == 6:
         stop_dearpygui()
     else:
-        # for item in [Tag.DirectoryOutputBrowseButton,
-        #              Tag.FileInputBrowseButton,
-        #              Tag.ConvertButton,
-        #              Tag.ConvertProgressBar,
-        #              Tag.ConvertGroup,
-        #              Tag.LogChild,
-        #              Tag.LogOutput,
-        #              Tag.FileName,
-        #              Tag.FileOutput,
-        #              Tag.FileInput,
-        #              Tag.FormatCombo,
-        #              Tag.TitleInput,
-        #              Tag.PathInput]:
-        #     try:
-        #         show_item(item)
-        #     except:
-        #         pass
         pass
 
 
 def show():
     with viewport_menu_bar():
-        width, height, channels, data = load_image(File.Images.Icon)
+        Download.download()
+        width, height, channels, data = load_image(File.Images.Icon[0])
         with texture_registry():
             icon = add_static_texture(width, height, data)
         add_image(icon, width=20, height=20)
@@ -62,8 +27,10 @@ def show():
         with menu(label=Product.Name):
             with menu(label="About"):
                 with group(horizontal=True):
-                    add_image(icon, width=80, height=80)
-
+                    try:
+                        add_image(icon, width=80, height=80)
+                    except:
+                        add_spacer(width=80)
                     add_text(f'{Product.Name}\n'
                              f'Author: {Product.Author}\n')
                     add_text(Product.Version, bullet=True)

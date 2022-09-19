@@ -1,4 +1,5 @@
 from dearpygui.dearpygui import *
+import requests
 
 from resources.variables import *
 
@@ -15,8 +16,11 @@ def start_app():
     create_context()
 
     with font_registry():
-        default_font = add_font(Fonts.Arial, 15)
-        bind_font(default_font)
+        try:
+            default_font = add_font("C:\Windows\Fonts\calibri.ttf", 15)
+            bind_font(default_font)
+        except:
+            pass
     create_viewport(title=Product.Name,
                     width=750, height=430,
                     resizable=False,

@@ -4,7 +4,7 @@
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/philliphqs/allconv?style=flat-square)
 ![GitHub all releases](https://img.shields.io/github/downloads/philliphqs/allconv/total?style=flat-square)
 
-In these times YouTube Converter are just filled with ads, are slow or not working. This is the perfect alternative.
+allconv is a free and open source alternative to the most paid video converter 
 
 ![](resources/screenshots/screenshot.png)
 
@@ -12,29 +12,18 @@ In these times YouTube Converter are just filled with ads, are slow or not worki
 ## Installation
 
   1. Download [``allconv-Setup.exe``](https://github.com/philliphqs/allconv/releases/download/0.0.2-alpha/YouTube-Converter-Setup.exe)
-  2. Run [``allconv-Setup.exe``](https://github.com/philliphqs/YouTube-Converter/releases/download/0.0.2-alpha/YouTube-Converter-Setup.exe)
+  2. Run [``allconv-Setup.exe``](https://github.com/philliphqs/allconv/releases/download/0.0.2-alpha/YouTube-Converter-Setup.exe)
 
 ## Clone Repository
 
 ```sh
-git clone https://github.com/philliphqs/YouTube-Converter.git
+git clone https://github.com/philliphqs/allconv.git
 ```
 
 ## Release History
 
 * 0.0.1-alpha
     * Prototype
-
-## Coming features
-* 0.0.2-alpha
-    * Publish addon to Firefox Store (already published)
-* 0.0.4
-    * More formats (wav, avi, ...)
-    * Custom Path
-    * System tray
-* 0.1.0
-    * Publish addon to Chrome Webstore
-    * Editable MP3 data
 
 ## Meta
 

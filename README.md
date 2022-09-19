@@ -27,14 +27,7 @@ git clone https://github.com/philliphqs/YouTube-Converter.git
 
 ## Coming features
 * 0.0.2-alpha
-    * Publish addon to Firefox Store (already published)
-* 0.0.4
-    * More formats (wav, avi, ...)
-    * Custom Path
-    * System tray
-* 0.1.0
-    * Publish addon to Chrome Webstore
-    * Editable MP3 data
+  * ...
 
 ## Meta
 
@@ -46,7 +39,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
 
-1. Fork it (<https://github.com/philliphqs/YouTube-Converter/fork>)
+1. Fork it (<https://github.com/philliphqs/allconv/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
